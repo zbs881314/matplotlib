@@ -16,7 +16,7 @@ for x, y in zip(X, Y1):
 
 
 for x, y in zip(X, Y2):
-    plt.text(x + 0.2, -y - 0.05, '%.2f' % y, ha='center', va='top')
+    plt.text(x + 0.2, -y - 0.05, '-%.2f' % y, ha='center', va='top')
 
 
 plt.xlim(-.5, n)
